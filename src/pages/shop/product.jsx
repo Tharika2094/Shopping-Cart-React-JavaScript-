@@ -11,7 +11,9 @@ export const Product = (props) => {
         <img className='img' src={productImage}/>
         <div className='description'>
             <p><b>{productName}</b></p>
-            <p className='details'>{details}</p>
+            <p className='details'>
+                {details}
+            </p>
             <p>${price}</p>
         </div>
         <button className='btn' onClick={()=>addToCart(id)}>
