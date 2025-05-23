@@ -50,7 +50,7 @@
 }
 
 .btn:hover{
-    background-color: darkblue;
+    background-color: gray;
     color: white;
     cursor: pointer;
 
